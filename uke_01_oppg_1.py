@@ -1,1 +1,1 @@
-print("Hei, det er meg, datamasskinen.\nHyggelig å se deg her.\nLykke til med INF100!")
+print("Hei, det er meg, datamaskinen.\nHyggelig å se deg her.\nLykke til med INF100!")

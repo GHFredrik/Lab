@@ -1,7 +1,7 @@
 lines = []
-lines.append(input("Første rad: "))
-lines.append(input("Andre rad: "))
-lines.append(input("Tredje rad: "))
+lines.append(input("Første raden: "))
+lines.append(input("Andre raden: "))
+lines.append(input("Tredje raden: "))
 
 frameWidth = 4 + max(len(lines[0]),len(lines[1]),len(lines[2]))
 
