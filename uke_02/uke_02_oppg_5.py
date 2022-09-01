@@ -18,9 +18,9 @@ def frequency_to_color(frequency):
     return(wavelength_to_color(waveLength))
 
 def frequency_or_wavelength_to_color():
-    unit = input("Enter a unit (nm or THz):")
+    unit = input("Enter a unit (nm or THz):\n")
     if unit == "nm":
-        value = int(input("Enter a value in nm:"))
+        value = int(input("Enter a value in nm:\n"))
         result = wavelength_to_color(value)
         if result:
             print("\n" + result)
@@ -28,7 +28,7 @@ def frequency_or_wavelength_to_color():
             print("\nThere is no color with wavelength " + str(value) + " nm")
         return
     if unit == "THz":
-        value = int(input("Enter a value in THz:"))
+        value = int(input("Enter a value in THz:\n"))
         result = frequency_to_color(value)
         if result:
             print("\n" + result)
@@ -36,7 +36,7 @@ def frequency_or_wavelength_to_color():
             print("\nThere is no color with frequency " + str(value) + " THz")
         return
     else:
-        print("The unit must be either nm or THz, it can not be " + unit)
+        print("\nThe unit must be either nm or THz, it can not be " + unit)
         return
 
 frequency_or_wavelength_to_color()
