@@ -13,7 +13,6 @@ def approx_area_under_g(x_lo, x_hi):
 def riemann_sum_g(x_lo, x_hi, n):
     sum = 0
     lineSegment = (x_hi - x_lo) / n
-    print (lineSegment)
     for x_i in range(n):
         sum += g(x_lo + (x_i * lineSegment)) * lineSegment
     return sum
@@ -22,7 +21,6 @@ def riemann_sum_g(x_lo, x_hi, n):
 def riemann_sum(f, x_lo, x_hi, n):
     sum = 0
     lineSegment = (x_hi - x_lo) / n
-    print (lineSegment)
     for x_i in range(n):
         sum += f(x_lo + (x_i * lineSegment)) * lineSegment
     return sum
