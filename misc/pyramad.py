@@ -4,4 +4,4 @@ def pyramad(rounds):
         list.append((2 + i) * (rounds - i))
     return list
 
-print(pyramad(20))
+print(pyramad(10))

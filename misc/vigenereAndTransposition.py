@@ -100,3 +100,4 @@ def decode(cipherMsg, k1, k2):
 print(encode("Cyber security is technologically complicated. It is a process not a product.", "cryptographyisfun", "34157268"))
 print(decode("w cs aln bwyvlemhf.eu hu wv tairkiokr iyjl dwf  kIfrmajlwjhbdqCl ety wl.razx gj ", "cryptographyisfun", "34157268"))
 
+print(vignere("decode", "tsaatmvttlezlwbhvbproaszletpdmaliaxplvmhvmvrtfxevhqmjmyivaxgwiavjkvqxhrqlwquxplawyplalwziboeboedlfmlrjyiijlmkevkovvaqaevkxpvwmalialicijlivivmhgplhiuhlvrwaovvaqa.", "hei"))
