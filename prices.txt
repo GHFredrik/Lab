@@ -1,0 +1,13 @@
+banana;7.40
+dish soap;26.20
+toilet paper;34.00
+apple;5.00
+frozen pizza;54.40
+stamp;3.00
+bread;22.20
+ice cream;35.10
+toothpaste;13.70
+pocket book;149.00
+chips;24.30
+tomato;10.00
+peanuts;18.50

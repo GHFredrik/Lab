@@ -1,0 +1,13 @@
+buy;apple
+buy;dish soap
+buy;apple
+buy;toilet paper
+buy;frozen pizza
+buy;peanuts
+return;toothpaste
+buy;tomato
+buy;chips
+buy;tomato
+return;pocket book
+buy;tomato
+pay;100.00
